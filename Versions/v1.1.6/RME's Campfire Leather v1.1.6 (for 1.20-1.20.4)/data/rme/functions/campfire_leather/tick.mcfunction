@@ -16,4 +16,4 @@ execute at @e[tag=campfire_entity4, scores={campfire_cook_timer=1}, limit=1, sor
 # Count down the kill_timer each tick
 scoreboard players remove @e[scores={campfire_kill_timer=1..}] campfire_kill_timer 1
 # Remove the enitity once the timer hits 0
-execute as @e[scores={campfire_kill_timer=1}, limit=1, sort=nearest] at @s run function rme:campfire_leather/remove_entity
+execute as @e[scores={campfire_kill_timer=..1}, limit=1, sort=nearest] at @s run function rme:campfire_leather/remove_entity
