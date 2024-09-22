@@ -13,5 +13,7 @@ execute if score use_campfire campfire_settings matches 1 if block ~ ~ ~ minecra
 execute if score use_soul_campfire campfire_settings matches 0 if block ~ ~ ~ minecraft:soul_campfire[lit=true] as @s run function rme:campfire_leather/cancel
 execute if score use_campfire campfire_settings matches 0 if block ~ ~ ~ minecraft:campfire[lit=true] as @s run function rme:campfire_leather/cancel
 
+execute if score debug campfire_settings matches 1 if block ~ ~ ~ #minecraft:campfires[lit=true] as @s run function rme:campfire_leather/cook
+
 # If we find air move 0.1 blocks forward and try again
 execute unless block ~ ~ ~ #minecraft:campfires[lit=true] positioned ^ ^ ^0.1 run function rme:campfire_leather/raycast_campfire
