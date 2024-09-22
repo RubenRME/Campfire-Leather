@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "category": "equipment",
+    "ingredient": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "result": {
+      "id": "minecraft:rotten_flesh",
+      "components": {
+        "minecraft:custom_data": {
+            "rme": "removeThis"
+        }
+      }
+    },
+    "experience": 0,
+    "cookingtime": 600
+  }
+  

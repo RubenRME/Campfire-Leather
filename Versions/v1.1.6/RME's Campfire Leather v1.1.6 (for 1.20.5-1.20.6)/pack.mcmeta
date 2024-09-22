@@ -1,0 +1,9 @@
+{
+	"pack": {
+		"author": "RME",
+		"version": "1.1.6",
+		"pack_format": 41,
+		"supported_formats": {"min_inclusive": 41, "max_inclusive": 48},
+		"description": [{"text":"Convert rotten flesh to leather in a balanced way!","color":"green"},{"text":"\nMade by RME","color":"gold"}]
+	}
+}
