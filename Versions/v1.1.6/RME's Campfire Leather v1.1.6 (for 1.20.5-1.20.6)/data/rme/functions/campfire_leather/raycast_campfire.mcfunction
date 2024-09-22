@@ -15,5 +15,5 @@ execute if score use_campfire campfire_settings matches 0 if score debug campfir
 
 execute if score debug campfire_settings matches 1 if block ~ ~ ~ #minecraft:campfires[lit=true] as @s run function rme:campfire_leather/cook
 
-# If we find air move 0.2 blocks forward and try again
+# If we find air move 0.1 blocks forward and try again
 execute unless block ~ ~ ~ #minecraft:campfires[lit=true] positioned ^ ^ ^0.1 run function rme:campfire_leather/raycast_campfire
